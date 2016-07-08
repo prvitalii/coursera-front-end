@@ -5,21 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <title>Boostrap Starter Page</title>
+    <title>My first bootstrap page</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700' rel='stylesheet' type='text/css'>
   </head>
 <body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Food, LLC</a>
+          
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
 
-  <h1>Hello Coursera!</h1>
 
+        </div>
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+            <li>
+              <a href="#">Chicken</a>
+            </li>
+            <li>
+              <a href="#">Beef</a>
+            </li>
+            <li>
+              <a href="#">Sushi</a>
+            </li>
+          </ul>  
+        </div>
+      </div>
+
+
+    </nav>
+  </header>
+
+  <div id="main-content">
+    <div class="container">
+      <h2 class="text-center">Our Menu</h2>
+      <div class="row">
+        
+        <div id="chicken" class="box col-xs-12">
+          <h3 class="text-center">Chicken</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium est nobis nesciunt placeat, architecto, eligendi explicabo maiores nostrum rem inventore cupiditate alias odio harum fugit quasi magni labore autem iste. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos ut iure maxime deserunt excepturi. Dolorum numquam blanditiis velit? Repellendus nesciunt quasi ea in, suscipit aliquid animi unde odio adipisci quibusdam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni reiciendis eveniet aperiam expedita? Consequatur aspernatur repellendus eius deleniti quas aliquid, dolore, nostrum nobis eos odit quisquam iusto excepturi, non error. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nesciunt nisi iusto repellendus ea quo delectus perferendis fugit! Molestiae quis tempore iure aspernatur. Tenetur repellendus excepturi consequatur neque impedit! Magnam.</p>  
+        </div>
+        <div id="beef" class="box col-xs-12">
+          <h3 class="text-center">Beef</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut assumenda laborum explicabo aspernatur dicta sed, atque ipsa nihil modi sequi. Modi asperiores voluptates odit suscipit culpa eveniet sit, quidem eligendi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam accusamus amet velit autem natus necessitatibus quibusdam, dolor iste inventore, in alias quod! Veritatis est nostrum ipsam unde, laboriosam asperiores hic! Lorem ipsum dolor sit amet, consectetur adipisicing elit. At aliquid consectetur, vero veritatis aspernatur! Eveniet doloribus corrupti, suscipit perspiciatis? Ipsa, libero accusamus. Officia aut, doloremque adipisci cum saepe nostrum fugit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur ipsa animi deserunt mollitia possimus quis eius, eos ducimus ullam. Iure voluptatem fugiat labore consequatur autem modi, voluptates in sunt aspernatur!</p>  
+        </div>
+        <div id="sushi" class="box col-xs-12">
+          <h3 class="text-center">Sushi</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis qui, nostrum earum unde aliquam explicabo, magnam, numquam nulla nihil ut ab illum excepturi officia accusamus tenetur voluptatibus adipisci, quaerat temporibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, maiores explicabo ut totam sunt sapiente, ullam adipisci repudiandae quis laboriosam, labore non! Debitis laudantium dicta earum ipsam deleniti, tempora perferendis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt expedita magni minus fugit quo sed. Repellendus, sit, aliquid! Quae, corrupti! Eveniet consequuntur tempora quas saepe dicta aspernatur, iure dolor expedita. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium quidem vitae veniam eligendi neque sed, deleniti in cumque porro quia nulla distinctio facere! Facere ipsa, assumenda hic tenetur repellat repellendus!</p>  
+        </div>
+
+      </div>
+
+    </div>
+  </div>
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>
   <script src="js/bootstrap.min.js"></script>

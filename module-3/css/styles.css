@@ -1,0 +1,67 @@
+body {
+  font-size: 16px;
+  color: black;
+  font-family: 'Oxygen', sans-serif;
+  padding-top: 50px;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: grey;
+  border: 1px solid black;
+  border-radius: 0;
+  margin-bottom: 0px;
+}
+.navbar-header .navbar-brand {
+	font-family: "Lora", sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: black;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-header .navbar-brand:hover, .navbar-header .navbar-brand:focus {
+	color: #61122f;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid black;
+}
+#nav-list a {
+	color: black;
+	text-align: center;
+}
+#nav-list li {
+	border: 1px solid black;
+	margin-bottom: -1px;
+	margin-left: -1px;
+	margin-right: -1px;
+}
+#nav-list li:hover, #nav-list li:active {
+	background-color: grey;
+}
+#collapsable-nav {
+	overflow: hidden;
+}
+#nav-list{
+	margin-top: -3px;
+	margin-bottom: -3px;
+}
+.box {
+	background-color: grey;
+	margin: 10px 0px;
+}
+
+
+@media (max-width: 768px){
+#collapsable-nav {
+	background-color: white;	
+}
+.row {
+	margin: 0px 70px;	
+}
+body {
+	padding-top: 170px;
+}
+
+}
